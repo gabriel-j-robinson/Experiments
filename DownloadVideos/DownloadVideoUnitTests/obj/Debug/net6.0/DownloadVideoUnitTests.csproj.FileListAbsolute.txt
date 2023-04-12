@@ -100,3 +100,9 @@ C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\ob
 C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\obj\Debug\net6.0\DownloadVideoUnitTests.pdb
 C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\obj\Debug\net6.0\DownloadVideoUnitTests.genruntimeconfig.cache
 C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\obj\Debug\net6.0\ref\DownloadVideoUnitTests.dll
+C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\gabri\source\repos\Experiments\DownloadVideos\DownloadVideoUnitTests\bin\Debug\net6.0\System.Memory.Data.dll

@@ -1,5 +1,5 @@
 ﻿using System.Text;
-
+using Azure.Storage.Blobs;
 namespace DownloadVideosLibrary
 {
   public static class DownloadVideo
@@ -36,6 +36,28 @@ namespace DownloadVideosLibrary
       using (var outputStream = File.Open(outputPath, FileMode.Create))
       {
         await stream.CopyToAsync(outputStream);
+      }
+    }
+
+    public static async Task DownloadBlobVideoWithBlobClient(string blobUrl, string outputPath)
+    {
+      BlobClient blobClient = new BlobClient(new Uri(blobUrl));
+      try
+      {
+        var response = await blobClient.DownloadContentAsync();
+        if (response != null)
+        {
+          //using (var stream = response.Content.ToStream())
+          //using (var outputStream = File.Open(outputPath, FileMode.Create))
+          //{
+          //  await stream.CopyToAsync(outputStream);
+          //}
+        }
+      }
+      catch (DirectoryNotFoundException ex)
+      {
+        // Let the user know that the directory does not exist
+        Console.WriteLine($"Directory not found: {ex.Message}");
       }
     }
   }
